@@ -1,0 +1,113 @@
+body {
+    background-color: #242423;
+}
+
+header {
+    background-color: #333533;
+}
+/* BARRA DE BUSQUEDA */
+.searchBar {
+    position: relative;
+}
+
+.searchBar input {
+    position: absolute;
+    right: 100px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    height: 35px;
+    padding: 20px;
+    width: 0;
+    transition: all 0.6s ease;
+}
+
+.searchBar button {
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top:-10px;
+    right: 90px;
+}
+
+.searchBar button i {
+    color: black;
+}
+
+.searchBar:hover input {
+    width: 240px;
+}
+
+.searchBar input:focus {
+    width: 240px;
+}
+
+.searchBar i {
+    color: white;
+    background-color:#f5cb5c;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+header p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    color: white;
+}
+
+.anime {
+    position: relative;
+}
+
+.anime img {
+    border-radius: 30px 30px 0 0;
+}
+
+div.anime:hover {
+    transform: translateY(-10px);
+}
+
+.anime .animeTitle {
+    border-radius: 0 0 30px 30px;
+    background-color: #f5cb5c;
+    color: #242423;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.infoAnime {
+    height: 347px;
+    width: 204px;
+    color: white;
+    background-color: black;
+    border-radius: 30px 30px 0 0;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    text-align: justify;
+}
+
+.infoAnime:hover {
+    opacity: 0.9;
+}
+
+.nav a {
+    color: white;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+.nav a:hover {
+    color: gray;
+}
+
+
+
